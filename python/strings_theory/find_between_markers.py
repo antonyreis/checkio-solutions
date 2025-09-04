@@ -33,18 +33,7 @@ def between_markers(text: str, begin: str, end: str) -> str:
         return ""
     else:
         return text[first_ocurr_begin + len(begin):first_ocurr_end]
-    # for char in text:
 
-    #     if char != begin[i]:
-    #         pass
-
-    #     elif char == begin[i]:
-    #         i += 1
-
-    #     if char == begin[-1]:
-    #         between_marker += char
-    # your code here
-    return ""
 
 
 print("Example:")
