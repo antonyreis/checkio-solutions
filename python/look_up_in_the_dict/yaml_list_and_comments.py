@@ -36,6 +36,7 @@ def yaml(a: str) -> dict:
         #     continue
         
         # final[_list[0]] = _list[-1].strip()
+        
     return final
 
 
